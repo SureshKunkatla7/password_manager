@@ -1,0 +1,55 @@
+* {
+  margin: 0px;
+}
+
+.bg-container {
+  background-color: #9ba9eb;
+  min-height: 100vh;
+  overflow: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 900px;
+}
+
+.logo-image {
+  height: 50px;
+  width: 150px;
+}
+
+.logo-image-container {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.password-input-container {
+  background-color: #5763a5;
+  display: flex;
+  padding: 20px 15px;
+}
+
+.form-container {
+  width: 100%;
+  order: 1;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.password-img-container {
+  width: 100%;
+  order: 2;
+  flex-grow: 1;
+}
+
+.password-img {
+  width: 100%;
+}
