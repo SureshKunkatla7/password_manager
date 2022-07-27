@@ -1,0 +1,54 @@
+.item-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #14b8a6;
+  padding: 5px 5px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.profile-container {
+  background-color: #10b981;
+  height: 40px;
+  width: 40px;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+.profile-letter {
+  color: #ffffff;
+}
+.list-item-test {
+  color: #ffffff;
+  font-size: 12px;
+}
+
+.details-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100px;
+}
+
+.star-img {
+  width: 100px;
+}
+
+.button-container {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.delete-img {
+  width: 20px;
+}
